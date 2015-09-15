@@ -705,7 +705,7 @@ var toolbarBuiltInButtons = {
 	"side-by-side": {
 		name: "side-by-side",
 		action: toggleSideBySide,
-		className: "mdi mdi-road",
+		className: "mdi mdi-compare",
 		title: "Toggle Side by Side (F9)",
 	},
 	"fullscreen": {
