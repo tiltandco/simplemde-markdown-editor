@@ -11,8 +11,8 @@
     }
   ],
   "main": [
-    "simplemde.min.js",
-    "simplemde.min.css"
+    "dist/simplemde.min.js",
+    "dist/simplemde.min.css"
   ],
   "moduleType": [
     "amd"
