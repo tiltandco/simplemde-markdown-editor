@@ -4,8 +4,20 @@
   "description" : "A simple, beautiful, and embeddable JavaScript markdown editor. Features autosaving and spell checking.",
   "homepage": "https://github.com/tiltandco/simplemde-markdown-editor",
   "main": [
-    "dist/simplemde.min.js",
-    "dist/simplemde.min.css"
+    "src/js/codemirror/markdown.js",
+    "src/js/codemirror/gfm.js",
+    "src/js/codemirror/overlay.js",
+    "src/js/codemirror/xml.js",
+    "src/js/codemirror/fullscreen.js",
+    "src/js/codemirror/continuelist.js",
+    "src/js/codemirror/codemirror.js",
+    "src/js/marked.js",
+    "src/js/spell-checker.js",
+    "src/js/typo.js",
+    "src/js/simplemde.js",
+    "src/css/spell-checker.css",
+    "src/css/codemirror.css",
+    "src/css/simplemde.css"
   ],
   "dependencies": {},
   "devDependencies": {},
