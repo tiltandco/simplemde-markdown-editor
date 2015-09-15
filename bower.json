@@ -1,8 +1,15 @@
 {
-  "name": "simplemde",
+  "name": "simplemde-markdown-editor",
   "version": "1.7.1",
   "description" : "A simple, beautiful, and embeddable JavaScript markdown editor. Features autosaving and spell checking.",
   "homepage": "https://github.com/tiltandco/simplemde-markdown-editor",
+  "main": [
+    "dist/simplemde.min.js",
+    "dist/simplemde.min.css"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "moduleType": [],
   "keywords": ["embeddable", "markdown", "editor", "javascript", "wysiwyg"],
   "authors": [
     {
@@ -10,13 +17,10 @@
     "url": "http://www.WesCossick.com"
     }
   ],
-  "main": [
-    "dist/simplemde.min.js",
-    "dist/simplemde.min.css"
-  ],
-  "moduleType": [
-    "amd"
-  ],
+  "repository": {
+      "type": "git",
+      "url": "git@bitbucket.org:tiltandco/simplemde-markdown-editor"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
